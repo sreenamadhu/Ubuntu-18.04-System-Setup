@@ -8,7 +8,7 @@ Python : 3.6.7
 PyTorch 1.0.1
 Pip3, Virtual env(venv),Numpy,Scipy,Matplotlib,OpenCV,PIllow
 
-# ######################## NVIDIA DRIVER 390.77 #################################
+#  NVIDIA DRIVER 390.77
 
 Installing Drivers on ubuntu 18.04
 
@@ -24,7 +24,7 @@ sudo ubuntu-drivers autoinstall
 
 
 
-# ######################## Installing CUDA 9.0 and cuDNN 7.2.1 ######################
+# Installing CUDA 9.0 and cuDNN 7.2.1 
 
 -->to verify your gpu is cuda enable check
 lspci | grep -i nvidia
@@ -73,7 +73,7 @@ nvidia-smi
 nvcc -V
 
 
-# ############################### Python 3.6.7 ##################################
+#  Python 3.6.7 
 sudo apt update
 sudo apt -y upgrade
 Check which version of Python 3 is installed by typing:
@@ -85,7 +85,7 @@ sudo apt install -y python3-pip
 sudo apt install build-essential libssl-dev libffi-dev python3-dev
 
 
-# ############################ Packages - VirtualEnv ##############################
+# Packages - VirtualEnv 
 
 sudo apt install -y python3-venv
 
@@ -98,10 +98,10 @@ source ~/.virtualenv/test_env/bin/activate
 --> To deactivate this:
 deactivate
 
-# ############### Packages - PyTorch (for cuda 9.0 & python3.6 & pip) ##################
+#  Packages - PyTorch (for cuda 9.0 & python3.6 & pip) 
 pip3 install torch torchvision
 
-# ########## Packages - Numpy,Scipy,Matplotlib,OpenCV,PIllow, (for python3.6 Ubuntu 18) ########## 
+# Packages - Numpy,Scipy,Matplotlib,OpenCV,PIllow, (for python3.6 Ubuntu 18) 
 sudo apt update
 sudo apt upgrade
 sudo apt install python3-numpy python3-scipy python3-matplotlib
