@@ -111,6 +111,7 @@ pip3 install Pillow
 
 
 Reference links :
+
 https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux
 
 https://docs.nvidia.com/deploy/cuda-compatibility/index.html
