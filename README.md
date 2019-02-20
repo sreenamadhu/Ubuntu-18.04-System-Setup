@@ -20,6 +20,11 @@ ubuntu-drivers devices
 ```
 sudo ubuntu-drivers autoinstall
 ```
+If you didnot get nvidia-390 driver as recommended driver,then you can run the following command to install nvidia 390 :
+```
+sudo apt install nvidia-390
+```
+
 3. Once the installation is concluded, reboot your system and you are done.<br/>
 
 
