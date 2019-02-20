@@ -8,7 +8,7 @@ Python : 3.6.7<br/>
 PyTorch 1.0.1<br/>
 Pip3, Virtual env(venv),Numpy,Scipy,Matplotlib,OpenCV,PIllow<br/>
 
-###  NVIDIA DRIVER 390.77
+###  Installing NVIDIA Driver 390.77
 
 Installing Drivers on ubuntu 18.04<br/>
 
