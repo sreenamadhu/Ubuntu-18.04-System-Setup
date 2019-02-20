@@ -8,7 +8,7 @@ Python : 3.6.7<br/>
 PyTorch 1.0.1<br/>
 Pip3, Virtual env(venv),Numpy,Scipy,Matplotlib,OpenCV,PIllow<br/>
 
-#  NVIDIA DRIVER 390.77
+###  NVIDIA DRIVER 390.77
 
 Installing Drivers on ubuntu 18.04<br/>
 
@@ -24,7 +24,7 @@ sudo ubuntu-drivers autoinstall
 
 
 
-# Installing CUDA 9.0 and cuDNN 7.2.1 
+### Installing CUDA 9.0 and cuDNN 7.2.1 
 
 To verify your gpu is cuda enable check<br/>
 ```
@@ -89,7 +89,7 @@ nvcc -V
 ```
 
 
-#  Python 3.6.7 
+###  Python 3.6.7 
 ```
 sudo apt update
 sudo apt -y upgrade
@@ -108,7 +108,7 @@ There are a few more packages and development tools to install to ensure that we
 sudo apt install build-essential libssl-dev libffi-dev python3-dev
 ``` 
 
-# Packages - VirtualEnv 
+### Packages - VirtualEnv 
 ``` 
 sudo apt install -y python3-venv
 ``` 
@@ -125,11 +125,11 @@ To deactivate this:<br/>
 deactivate
 ``` 
 
-#  Packages - PyTorch (for cuda 9.0 & python3.6 & pip) 
+###  Packages - PyTorch (for cuda 9.0 & python3.6 & pip) 
 ``` 
 pip3 install torch torchvision
 ``` 
-# Packages - Numpy,Scipy,Matplotlib,OpenCV,PIllow, (for python3.6 Ubuntu 18) 
+### Packages - Numpy,Scipy,Matplotlib,OpenCV,PIllow, (for python3.6 Ubuntu 18) 
 ``` 
 sudo apt update
 sudo apt upgrade
@@ -141,14 +141,9 @@ pip3 install Pillow
 
 Reference links :
 
-https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux
-
-https://docs.nvidia.com/deploy/cuda-compatibility/index.html
-
-https://devtalk.nvidia.com/default/topic/1031351/linux/cannot-purge-and-install-nvidia-driver/
-
-https://devtalk.nvidia.com/default/topic/1042312/linux/cudnn7-2-for-cuda9-0/
-
-https://gist.github.com/Mahedi-61/2a2f1579d4271717d421065168ce6a73
-
+https://linuxconfig.org/how-to-install-the-nvidia-drivers-on-ubuntu-18-04-bionic-beaver-linux<br/>
+https://docs.nvidia.com/deploy/cuda-compatibility/index.html<br/>
+https://devtalk.nvidia.com/default/topic/1031351/linux/cannot-purge-and-install-nvidia-driver/<br/>
+https://devtalk.nvidia.com/default/topic/1042312/linux/cudnn7-2-for-cuda9-0/<br/>
+https://gist.github.com/Mahedi-61/2a2f1579d4271717d421065168ce6a73<br/>
 
